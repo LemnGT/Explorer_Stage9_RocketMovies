@@ -9,7 +9,14 @@ export default createGlobalStyle`
 
     body{
         background-color:${({ theme }) => theme.COLORS.BG_MEDIUM};
-        color:${({ theme }) => theme.COLORS.FONT_WHITE}
+        color:${({ theme }) => theme.COLORS.FONT_WHITE};
+        -webkit-font-smoothing:antialiased
+    }
+
+    body,input,button,textarea{
+        font-family:'Roboto Slab', serif;
+        font-size:16px;
+        outline:none
     }
 
     a {
