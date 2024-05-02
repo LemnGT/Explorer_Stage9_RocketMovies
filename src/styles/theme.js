@@ -7,5 +7,6 @@ export default {
     LABEL_GRAY: "#948F99",
     FONT_WHITE: "#F4EDE8",
     SUBTITLE_GRAY: "#CAC4CF",
+    BORDER_GRAY: "#3E3B47",
   },
 };
