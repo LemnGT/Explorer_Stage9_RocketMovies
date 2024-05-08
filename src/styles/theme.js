@@ -8,5 +8,6 @@ export default {
     FONT_WHITE: "#F4EDE8",
     SUBTITLE_GRAY: "#CAC4CF",
     BORDER_GRAY: "#3E3B47",
+    BG_MARCADOR: "#312E38",
   },
 };
