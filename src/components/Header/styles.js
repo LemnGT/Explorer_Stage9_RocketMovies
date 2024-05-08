@@ -44,17 +44,6 @@ export const Profile = styled.div`
     }
   }
 `;
-
-export const Search = styled.input`
-  padding: 19px 24px;
-  height: 18px;
-  width: 50%;
-  background-color: ${({ theme }) => theme.COLORS.BG_LIGHT};
-  border: none;
-  border-radius: 10px;
-  color: ${({ theme }) => theme.COLORS.LABEL_GRAY};
-`;
-
 export const PageName = styled.a`
   font-size: 24px;
   font-weight: bold;

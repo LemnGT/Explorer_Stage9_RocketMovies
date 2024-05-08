@@ -1,11 +1,12 @@
-import { Container, Profile, Search, PageName } from "./styles";
+import { Input } from "../Input";
+import { Container, Profile, PageName } from "./styles";
 
 export function Header() {
   return (
     <Container>
       <PageName>RocketMovies</PageName>
 
-      <Search type="text" placeholder="Pesquisar por título" />
+      <Input type="text" placeholder="Pesquisar por título" />
 
       <Profile>
         <div>
