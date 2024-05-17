@@ -4,6 +4,9 @@ import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tag";
 import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
+import { IoMdArrowRoundBack } from "react-icons/io";
+import { FaRegClock } from "react-icons/fa";
+import { IoIosStar, IoIosStarOutline } from "react-icons/io";
 
 export function MoviePreview() {
   return (
@@ -11,17 +14,19 @@ export function MoviePreview() {
       <Header />
       <main>
         <Content>
-          <ButtonText title="<-Voltar" />
+          <ButtonText title="Voltar" icon={<IoMdArrowRoundBack />} />
           <div id="title">
             <h1>Interestellar</h1>
-            <span>icone de estrelas</span>
+            <IoIosStar />
+            <IoIosStar />
+            <IoIosStar />
+            <IoIosStar />
+            <IoIosStarOutline />
           </div>
           <div id="infos">
-            <span>
-              <img src="https://github.com/LemnGT.png" alt="" />
-              Por MG
-            </span>
-            <span>icone relogio</span>
+            <img src="https://github.com/LemnGT.png" alt="" />
+            <span>Por MG</span>
+            <FaRegClock />
             <span> 23/05/22 às 08:00</span>
           </div>
           <Section>

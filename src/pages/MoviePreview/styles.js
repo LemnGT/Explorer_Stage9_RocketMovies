@@ -37,12 +37,6 @@ export const Content = styled.div`
     align-self: flex-start;
   }
 
-  > h1 {
-    font-size: 36px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.COLORS.FONT_WHITE};
-  }
-
   > p {
     font-size: 16px;
     color: ${({ theme }) => theme.COLORS.FONT_WHITE};
@@ -54,10 +48,22 @@ export const Content = styled.div`
   }
 
   #title {
+    display: flex;
+    align-items: center;
     padding: 24px 0px;
+    svg {
+      color: ${({ theme }) => theme.COLORS.PINK};
+    }
+    > h1 {
+      font-size: 36px;
+      font-weight: 400;
+      color: ${({ theme }) => theme.COLORS.FONT_WHITE};
+      margin-right: 6px;
+    }
   }
-
   #infos {
+    display: flex;
+    align-items: center;
     img {
       width: 16px;
       height: 16px;
@@ -67,6 +73,12 @@ export const Content = styled.div`
     span {
       color: ${({ theme }) => theme.COLORS.FONT_WHITE};
       margin-right: 8px;
+    }
+    svg {
+      color: ${({ theme }) => theme.COLORS.PINK};
+      margin-right: 8px;
+      height: 16px;
+      width: 16px;
     }
   }
 `;
