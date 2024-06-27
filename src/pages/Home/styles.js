@@ -8,7 +8,22 @@ export const Container = styled.div`
   grid-template-areas:
     "header"
     "content";
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 10px;
+
+    background-clip: content-box;
+    border-left: 8px solid transparent;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+
   > main {
+    overflow-y: scroll;
     width: 1137px;
     margin: 50px auto;
     grid-area: "content";
@@ -18,18 +33,25 @@ export const Container = styled.div`
       justify-content: space-between;
       display: flex;
     }
-
-    button {
-      width: 200px;
-      height: 50px;
-      padding: 13px 32px;
-      justify-content: space-around;
-      color: ${({ theme }) => theme.COLORS.BG_MEDIUM};
-      display: flex;
-      align-items: center;
+    > div {
+      button {
+        width: 200px;
+        height: 50px;
+        padding: 13px 32px;
+        justify-content: space-around;
+        color: ${({ theme }) => theme.COLORS.BG_MEDIUM};
+        display: flex;
+        align-items: center;
+      }
     }
   }
   background-color: ${({ theme }) => theme.COLORS.BG_MEDIUM};
 `;
 
-export const MiniPreview = styled.ul``;
+export const PrevContainer = styled.ul`
+  margin-top: 37.5px;
+  list-style-type: none;
+  > li {
+    margin-bottom: 24px;
+  }
+`;
