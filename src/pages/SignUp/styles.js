@@ -32,8 +32,7 @@ export const Container = styled.div`
   }
 
   svg:last-child {
-    height: 30px;
-    width: 20px;
+    font-size: 25px;
   }
 
   div + div {

@@ -2,7 +2,7 @@ import { Container, Form, BG } from "./styles";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
-import { IoIosLock, IoIosMail, IoIosUser } from "react-icons/io";
+import { IoIosLock, IoIosMail } from "react-icons/io";
 
 export function SignIn() {
   return (
