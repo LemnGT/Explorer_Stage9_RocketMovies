@@ -1,7 +1,7 @@
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 import { MiniPrev } from "../../components/MiniPrev";
-import { Container, PrevContainer } from "./styles";
+import { Container } from "./styles";
 import { FaPlus } from "react-icons/fa6";
 
 export function Home() {
