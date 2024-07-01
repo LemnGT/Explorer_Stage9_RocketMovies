@@ -8,19 +8,6 @@ export const Container = styled.div`
   grid-template-areas:
     "header"
     "content";
-  ::-webkit-scrollbar {
-    width: 16px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.COLORS.PINK};
-    border-radius: 10px;
-
-    background-clip: content-box;
-    border-left: 8px solid transparent;
-  }
-  ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0);
-  }
 
   > main {
     overflow-y: scroll;

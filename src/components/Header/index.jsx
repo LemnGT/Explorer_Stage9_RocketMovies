@@ -17,7 +17,7 @@ export function Header() {
       <Profile>
         <div>
           <strong>Marcelo Gabriel</strong>
-          <ButtonText title="sair" />
+          <a href="/"> sair</a>
         </div>
         <img src="https://github.com/LemnGT.png" alt="Imagem do usuário" />
       </Profile>

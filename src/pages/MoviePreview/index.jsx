@@ -2,7 +2,6 @@ import { Container, Links, Content } from "./styles";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tag";
-import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaRegClock } from "react-icons/fa";

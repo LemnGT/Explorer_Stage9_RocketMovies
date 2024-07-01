@@ -33,7 +33,7 @@ export const Profile = styled.div`
     flex-direction: column;
     margin-right: 9px;
     line-height: 24px;
-    button {
+    a {
       font-size: 14px;
       color: ${({ theme }) => theme.COLORS.LABEL_GRAY};
     }
