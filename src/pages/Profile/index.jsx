@@ -10,12 +10,16 @@ import {
   IoIosArrowRoundBack,
   IoIosCamera,
 } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export function Profile() {
   return (
     <Container>
       <header>
-        <ButtonText icon={<IoIosArrowRoundBack />} title="Voltar" />
+        <Link to="/">
+          <IoIosArrowRoundBack />
+          Voltar
+        </Link>
       </header>
       <Form>
         <Avatar>

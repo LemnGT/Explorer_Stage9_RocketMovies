@@ -3,9 +3,12 @@ import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
 import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
-import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaRegClock } from "react-icons/fa";
-import { IoIosStar, IoIosStarOutline } from "react-icons/io";
+import {
+  IoIosStar,
+  IoIosStarOutline,
+  IoMdArrowRoundBack,
+} from "react-icons/io";
 
 export function MoviePreview() {
   return (

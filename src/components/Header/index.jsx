@@ -6,15 +6,15 @@ import { IoIosSearch } from "react-icons/io";
 export function Header() {
   return (
     <Container>
-      <PageName>RocketMovies</PageName>
+      <PageName to="/">RocketMovies</PageName>
 
       <Input
         type="text"
         placeholder="Pesquisar por título"
-        icon={IoIosSearch}
+        Icon_end={<IoIosSearch />}
       />
 
-      <Profile>
+      <Profile to="/profile">
         <div>
           <strong>Marcelo Gabriel</strong>
           <a href="/"> sair</a>

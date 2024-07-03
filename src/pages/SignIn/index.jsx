@@ -1,4 +1,5 @@
 import { Container, Form, BG } from "./styles";
+import { Link } from "react-router-dom";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
@@ -15,7 +16,7 @@ export function SignIn() {
         <Input type="text" placeholder="E-mail" icon={IoIosMail} />
         <Input type="password" placeholder="Senha" icon={IoIosLock} />
         <Button label="Entrar" />
-        <ButtonText title="Criar conta" />
+        <Link to="/signup">Criar conta</Link>
       </Form>
       <BG />
     </Container>

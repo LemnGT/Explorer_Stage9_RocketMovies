@@ -21,14 +21,17 @@ export const Container = styled.div`
       display: flex;
     }
     > div {
-      button {
+      a {
         width: 200px;
         height: 50px;
-        padding: 13px 32px;
+        padding: 13px 25px;
         justify-content: space-around;
         color: ${({ theme }) => theme.COLORS.BG_MEDIUM};
         display: flex;
         align-items: center;
+        svg {
+          margin-right: 8px;
+        }
       }
     }
   }

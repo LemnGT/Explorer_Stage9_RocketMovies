@@ -4,6 +4,7 @@ export const Container = styled.button`
   border: none;
   padding: 32px;
   margin-top: 24px;
+  border-radius: 16px;
   background-color: ${({ theme }) => theme.COLORS.PINK_LIGHT};
   h2 {
     font-weight: bold;

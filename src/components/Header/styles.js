@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Container = styled.header`
@@ -18,7 +19,7 @@ export const Container = styled.header`
   background-color: ${({ theme }) => theme.COLORS.BG_MEDIUM};
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
 
@@ -44,7 +45,7 @@ export const Profile = styled.div`
     }
   }
 `;
-export const PageName = styled.a`
+export const PageName = styled(Link)`
   font-size: 24px;
   font-weight: bold;
   color: ${({ theme }) => theme.COLORS.PINK};

@@ -25,6 +25,14 @@ export const Container = styled.div`
     align-items: center;
 
     background-color: ${({ theme }) => theme.COLORS.PINK_LIGHT};
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      color: ${({ theme }) => theme.COLORS.PINK};
+      height: 21px;
+      margin-top: 42px;
+    }
 
     padding: 0 144px;
 

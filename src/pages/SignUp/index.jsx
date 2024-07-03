@@ -8,6 +8,7 @@ import {
   IoMdPerson,
   IoIosArrowRoundBack,
 } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export function SignUp() {
   return (
@@ -22,10 +23,10 @@ export function SignUp() {
         <Input type="text" placeholder="E-mail" icon={IoIosMail} />
         <Input type="password" placeholder="Senha" icon={IoIosLock} />
         <Button label="Cadastrar" />
-        <ButtonText
-          title="Voltar para o login"
-          icon={<IoIosArrowRoundBack />}
-        />
+        <Link to="/">
+          <IoIosArrowRoundBack />
+          Voltar para o login
+        </Link>
       </Form>
       <BG />
     </Container>

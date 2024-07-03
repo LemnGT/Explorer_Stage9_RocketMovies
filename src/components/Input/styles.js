@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   border-radius: 10px;
-  padding: 19px 16px;
+  padding: 19px 24px;
 
   background-color: ${({ theme }) => theme.COLORS.BG_LIGHT};
 
@@ -21,9 +21,15 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  > svg {
+  > svg:first-child {
     margin-top: 1px;
     margin-right: 16px;
     color: ${({ theme }) => theme.COLORS.LABEL_GRAY};
+  }
+  > svg:last-child {
+    margin-top: 1px;
+    margin-left: 16px;
+    color: ${({ theme }) => theme.COLORS.LABEL_GRAY};
+    font-size: 20px;
   }
 `;

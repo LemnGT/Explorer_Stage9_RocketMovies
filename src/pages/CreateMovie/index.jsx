@@ -6,6 +6,7 @@ import { Textarea } from "../../components/Textarea";
 import { Button } from "../../components/Button";
 
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export function CreateMovie() {
   return (
@@ -13,9 +14,9 @@ export function CreateMovie() {
       <Header />
       <main>
         <Form>
-          <a href="/">
+          <Link to="/">
             <IoIosArrowRoundBack /> Voltar
-          </a>
+          </Link>
           <h1>Novo filme</h1>
           <header>
             <Input placeholder="Título" />

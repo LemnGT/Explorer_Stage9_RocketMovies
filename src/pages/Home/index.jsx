@@ -1,4 +1,4 @@
-import { Button } from "../../components/Button";
+import { ButtonNav } from "../../components/ButtonNav";
 import { Header } from "../../components/Header";
 import { MiniPrev } from "../../components/MiniPrev";
 import { Container } from "./styles";
@@ -11,7 +11,9 @@ export function Home() {
       <main>
         <div>
           <h1>Meus filmes</h1>
-          <Button icon={<FaPlus />} label="Adicionar filme" />
+          <ButtonNav to="/createmovie">
+            <FaPlus /> Adicionar filme
+          </ButtonNav>
         </div>
         <MiniPrev
           data={{

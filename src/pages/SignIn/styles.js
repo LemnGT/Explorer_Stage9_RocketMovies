@@ -35,10 +35,6 @@ export const Container = styled.div`
     margin-top: 8px;
     margin-bottom: 24px;
   }
-
-  button + button {
-    margin-top: 42px;
-  }
 `;
 
 export const Form = styled.form`
@@ -48,6 +44,13 @@ export const Form = styled.form`
   justify-content: center;
   align-items: center;
   text-align: center;
+  a {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: ${({ theme }) => theme.COLORS.PINK};
+    margin-top: 42px;
+  }
 `;
 
 export const BG = styled.section`
